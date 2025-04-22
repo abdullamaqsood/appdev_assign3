@@ -173,7 +173,7 @@ class _AddEditNotePageState extends State<AddEditNotePage> {
                     _contentController.text.trim().isEmpty) {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
-                      content: Text('Title or content cannot be empty!'),
+                      content: Text('Title and content cannot be empty!'),
                       backgroundColor: Colors.redAccent,
                     ),
                   );
